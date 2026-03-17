@@ -1,0 +1,51 @@
+# -----------------------------
+# Data and generated datasets
+# -----------------------------
+data/
+backend/data/processed/
+*.npy
+*.npz
+*.csv
+
+# -----------------------------
+# Python environments and cache
+# -----------------------------
+.venv/
+.venv-1/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# -----------------------------
+# Frontend dependencies/build
+# -----------------------------
+frontend/node_modules/
+frontend/dist/
+
+# -----------------------------
+# Model artifacts / generated outputs
+# -----------------------------
+backend/models/weights/
+results/replays/
+logs/
+*.log
+*.stackdump
+bash.exe.stackdump
+
+# -----------------------------
+# Notebook/editor temp files
+# -----------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.vscode/
+
+# -----------------------------
+# OS junk
+# -----------------------------
+.DS_Store
+Thumbs.db

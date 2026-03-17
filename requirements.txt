@@ -1,0 +1,15 @@
+torch
+torchvision
+stable-baselines3[extra]
+gymnasium
+scikit-learn
+pandas
+numpy
+fastapi
+uvicorn[standard]
+python-multipart
+websockets
+matplotlib
+seaborn
+tqdm
+joblib
